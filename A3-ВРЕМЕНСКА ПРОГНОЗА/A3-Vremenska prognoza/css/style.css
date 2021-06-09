@@ -1,0 +1,12 @@
+body{
+	width: 100%;
+}
+
+#pocetna, nav{
+	width: 30%;
+	margin: 0 auto;
+}
+
+#uputstvo, #o_autoru{
+	background-color: #92a8d1;
+}

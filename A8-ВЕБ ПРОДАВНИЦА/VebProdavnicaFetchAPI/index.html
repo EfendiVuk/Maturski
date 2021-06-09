@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Veb prodavnica</title>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+        </script>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <!--Произвођач, RAM меморија, Процесор, Камера, Екран-->
+            <label for="iproizvodjac">Proizvodjac:
+                <select name="proizvodjac" id="iproizvodjac">
+                    <option value="Samsung">Samsung</option>
+                    <option value="Xiaomi">Xiaomi</option>
+                    <option value="Asus">Asus</option>
+                </select>
+            </label>
+            <br>
+
+            <label for="iram">Ram</label>
+            <select name="ram" id="iram">
+                <option value="12GB">12GB</option>
+                <option value="8GB">8GB</option>
+                <option value="6GB">6GB</option>
+            </select>
+            <br>
+            <label for="icpu">Procesor</label>
+            <select name="cpu" id="icpu">
+                <option value="Mongoose M5">Mongoose M5</option>
+                <option value="Kryo 465 Gold">Kryo 465 Gold</option>
+                <option value="Kryo 485">Kryo 485</option>
+            </select>
+            <br>
+            <label for="ikamera">Kamera</label>
+            <select name="kamera" id="ikamera">
+                <option value="108 MP">108 MP</option>
+                <option value="64 MP">64 MP</option>
+                <option value="48 MP">48 MP</option>
+            </select>
+            <br>
+            <label for="iekran">Ekran</label>
+            <select name="ekran" id="iekran">
+                <option value="6.9 in">6.9 in</option>
+                <option value="6.67 in">6.67 in</option>
+                <option value="6.4 in">6.4 in</option>
+            </select>
+            <br>
+
+            <input type="button" value="Trazi" id="itrazi">
+            
+            <!-- <input type="text" name="polje" id="ipolje"> -->
+            
+        </div>
+
+        <div id="tabela"></div>
+
+        <article>
+        </article>
+
+
+        <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        <!-- <script src="js/main.js"></script> -->
+        <script src="js/fetch.js"></script>
+    </body>
+</html>
